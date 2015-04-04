@@ -154,8 +154,26 @@ img {
 	height: 94px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
+    body {
+        background: lightgreen;
+    }
+}
+
+@media screen and (max-width: 960px) {
     body {
         background: lightblue;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background: violet;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background: tomato;
     }
 }
